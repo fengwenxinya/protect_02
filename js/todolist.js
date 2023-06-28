@@ -40,7 +40,7 @@ $(function() {
 
 
 
-    function getDate() {
+    function getDate() { //测试
         var data = localStorage.getItem('todolist');
         if (data !== null) {
 
@@ -52,7 +52,7 @@ $(function() {
 
 
 
-    function setDate(data) {
+    function setDate(data) { //测试22222222222
         localStorage.setItem('todolist', JSON.stringify(data));
     };
 
